@@ -1,0 +1,361 @@
+@charset "utf-8";
+/*background edits*/
+body{ 
+  width: auto;
+  overflow:auto;
+  margin: 0%;
+}
+html{
+  scroll-behavior: smooth;
+  width: auto;
+  overflow: visible;
+}
+h2#proj{
+  text-decoration: underline;
+  font-size: 50px;
+}
+/*  the about page */
+.about{
+text-align: center;
+font-size: 25px;
+}
+
+#about{
+  display: block;
+  padding-left: 40px;
+  padding-right: 40px;
+ 
+}
+p#top{
+  text-align: center;
+}
+h1#proj{
+  text-align: center;
+  font-size: 60px;
+}
+.proj{
+  background-color: #ffe9e9;
+  text-align: center;
+}
+
+#Contact{
+  text-align: center;
+  border: solid 2px black;
+}
+/*home screen*/
+#az{
+  width: 100%;
+ height: auto
+
+}
+
+#center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;
+}
+.title {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 0%;
+  background-color: #552334;
+}
+
+h1{
+  font-size: 50px;
+
+}
+strong{
+  font-size: 100px;
+  color: #fff7fb;
+}
+#name{
+  color: #000000;
+}
+
+/*button edits*/
+button#king{
+   text-decoration: none;
+   color: #ffc933;
+   border: #ffcd28 3px double;
+ background-color: transparent;
+  height: 70px;
+  width: 50;
+  text-align: center;
+  vertical-align: center;
+  font-size: 25px;
+  margin-left: 90px;
+    margin-right: 90px;
+}
+
+
+#king span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#king span:after {
+  content: '\2193';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#king:hover span {
+  padding-right: 25px;
+  
+ 
+}
+
+#king:hover span:after {
+  opacity: 1;
+  right: 0;
+
+}
+
+
+
+
+
+
+/*bar key */  
+  #myProgress {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  #Bar {
+    width: 10%;
+    height: 30px;
+    background-color: #ee5533;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  #label {
+    text-align: center;
+    line-height: 30px;
+    color: rgb(0, 0, 0);
+  }
+
+  #myBar {
+    width: 10%;
+    height: 30px;
+    background-color: #ee5533;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 20px;
+  }
+
+
+  #dour {
+    width: 10%;
+    height: 30px;
+    background-color: #ee5533;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+.Progress-bar{
+  background-color: rgb(253, 253, 253);
+}
+
+
+/*nav bar*/
+#navbar {
+  overflow: hidden;
+  background-color: #552334;
+  width: 100%;
+  height: auto;
+
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #ffcd28;
+  color: white;
+  
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+img#me{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+img#nice{
+  width: 450px;
+  border: black 2px solid;
+}
+
+/*contact me */
+.mall{
+  background-color:#663344 ;
+}
+#Contact{
+  text-decoration: none;
+  color: #ffc933;
+  border: #ffcd28 3px double;
+background-color: transparent;
+ height: 70px;
+ width: 50%;
+ text-align: center;
+ vertical-align: center;
+ font-size: 25px;
+ margin-left: 90px;
+   margin-right: 90px;
+}
+
+#Contact span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#Contact span:after {
+  content: '\2709';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#Contact:hover span {
+  padding-right: 40px;
+  
+ 
+}
+
+#Contact:hover span:after {
+  opacity: 1;
+  right: 0;
+
+}
+
+/*Footer*/
+footer{
+  text-align: center;
+  background-color: #aa4444;
+  margin: 0px;
+}
+p#maxs{
+  margin: 0;
+}
+
+
+
+
+
+  /*grid layout*/
+  grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr 0.6fr 1fr 1fr;
+    grid-template-rows: 1fr 0.4fr 1.4fr 1.2fr 1fr 1fr 1fr 1fr;
+    gap: 1px 1px;
+    
+  }
+  
+  .Title { grid-area: Title; }
+  
+  .Nav-bar { grid-area: Nav-bar; }
+  
+  #About-me {
+    display: grid;
+    grid-template-columns: 0.7fr 0.7fr;
+    grid-template-rows: 0.7fr 1.3fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "about about" "Info Progress-bar" "Info Progress-bar" "Info Progress-bar";
+    grid-area: About-me;
+  }
+  
+  .about { grid-area: about; }
+  
+  .Info { grid-area: Info; }
+  
+  .Progress-bar { grid-area: Progress-bar; }
+
+
+
+  
+  .Projects {
+    display: grid;
+  grid-template-columns: 1fr 1.3fr 1.1fr 0.2fr 1.1fr 1.3fr 1fr;
+  grid-template-rows: 1fr 1.2fr 1.1fr 0.3fr 1.1fr 1.1fr 1.2fr;
+  gap: 1px 1px;
+  grid-template-areas: ". . . . . . ." ". pro1 pro1 . pro2 pro2 ." ". pro1 pro1 . pro2 pro2 ." ". . . . . . ." ". pro3 pro3 . pro4 pro4 ." ". pro3 pro3 . pro4 pro4 ." ". . . . . . .";
+}
+
+.pro1 { grid-area: pro1; }
+
+.pro2 { grid-area: pro2; }
+
+.pro3 { grid-area: pro3; }
+
+.pro4 { grid-area: pro4; }
+
+
+
+.mall {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px 1px;
+  grid-template-areas: ". . . ." "mail mail mail mail" "mail mail mail mail";
+}
+
+#mail {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 1px 1px;
+  grid-template-areas: ". . . . . ." ". . mail-to mail-to . ." ". . mail-to mail-to . ." ". . . . . .";
+  grid-area: mail;
+}
+
+.mail-to { grid-area: mail-to; }
+
+
+
+
+

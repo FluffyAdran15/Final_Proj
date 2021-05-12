@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adrian Soliz|Web Developer|</title>
+    
+  
+    <link href="styles.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="fade.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="title">
+       <img id="az" src="arizona.jpg" alt="Background">
+        <div id="center">
+            <h1 id="name">Hello, im<br> <strong > Adrian Soliz</strong></h1>
+            <h3>
+                Front End Developer | Web designer | Freelance
+            </h3>
+           
+            <button id="king" class="btn btn-two" onclick="document.getElementById('About-me').scrollIntoView();">
+               <span > View my Profile</span>
+            </button>
+        </div>
+
+        </div>
+   
+        <div id="navbar">
+            <a class="active" href="#center">Home</a>
+            <a href="#About-me">About</a>
+            <a href="#nice">project</a>
+            <a href="#Contact">Contact</a>
+          </div>
+        
+        <div id="About-me" class="inline-photo start-on-scroll" class="" >
+            <div class="about">
+                <h2 id="proj">About Me</h2>
+            </div>
+            <div class="Info">
+                <section id="about">
+                    <div class="Picture">
+                        <img id="me" src="" alt="Picture">
+                    </div>
+                    <div class="Description">
+                        <p id="top">
+                            <b>Who am i?</b>
+                            <br>
+                       Hi, 
+                        </p>
+                </div>
+                    
+                </section>
+            </div>
+            <div class="Progress-bar" class="fader">
+                <h2>HTML5</h2>
+                <div id="myProgress" onscroll="html()">
+                    <div id="myBar">10%</div>
+                  </div>
+                
+                  <h2>CSS3</h2>
+                <div id="myProgress" onscroll="move()">
+                    <div id="Bar">
+                    <div id="label">10%</div>
+                    </div>
+                  </div> 
+                  
+                  <h2>JavaScript</h2>
+                
+                <div id="myProgress" onscroll="Java()">
+                  <div id="dour">
+                    <div id="label">1%</div>
+                  </div>
+                </div>
+                    </section></div>
+            </div>
+
+
+          </div>
+        </div>
+
+         
+
+   <div class="proj inline-photo start-on-scroll">
+      <h2 id="proj">Projects</h2>
+  <div class="Projects">
+    <div class="pro1" class="fader">
+        <img id="nice" src="niceBro.png" alt="project1">
+    </div>
+    <div class="pro2" class="fader">
+        <img id="nice" src="soon.png" alt="project2">
+    </div>
+    <div class="pro3" class="fader">
+        <img id="nice" src="soon.png" alt="project3">
+    </div>
+    <div class="pro4" class="fader">
+        <img id="nice" src="soon.png" alt="project4">
+    </div>
+  </div>
+      
+  </div>
+</div>
+
+<div class="mall">
+    <div id="mail">
+      <div class="mail-to">
+        <a href="mailto:soliz.adrian68@gmail.com">
+          <button id="Contact" >
+            <span > Contact Me</span>
+         </button>
+          </a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p id="maxs">
+     Adrian Soliz &#169 2020
+    </p>
+  </footer>
+    <script src="scrollFeat.js"></script>
+     <script src="Bar.js" async></script>
+</body>
+
+</html>
