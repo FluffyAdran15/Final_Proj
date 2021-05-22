@@ -1,126 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Adrian Soliz|Web Developer|</title>
-    
-  
-    <link href="styles.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="fade.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Adrian Soliz|Web Developer|</title>
+
+
+  <link href="styles.css" rel="stylesheet" />
+  <link rel="stylesheet" href="fade.css">
 </head>
 
 <body>
-    <div class="grid-container">
-        <div class="title">
-       <img id="az" src="arizona.jpg" alt="Background">
-        <div id="center">
-            <h1 id="name">Hello, im<br> <strong > Adrian Soliz</strong></h1>
-            <h3>
-                Front End Developer | Web designer | Freelance
-            </h3>
-           
-            <button id="king" class="btn btn-two" onclick="document.getElementById('About-me').scrollIntoView();">
-               <span > View my Profile</span>
-            </button>
-        </div>
+  <div class="">
+    <div class="title">
+      <img id="az" src="arizona.jpg" alt="Background">
+      <div id="center">
+        <h1 id="name">Hello, im<br>
+          <strong> Adrian Soliz</strong>
+        </h1>
+        <h3>
+          Front End Developer | Web designer | Freelance
+        </h3>
 
-        </div>
-   
-        <div id="navbar">
-            <a class="active" href="#center">Home</a>
-            <a href="#About-me">About</a>
-            <a href="#nice">project</a>
-            <a href="#Contact">Contact</a>
-          </div>
-        
-        <div id="About-me" class="inline-photo start-on-scroll" class="" >
-            <div class="about">
-                <h2 id="proj">About Me</h2>
-            </div>
-            <div class="Info">
-                <section id="about">
-                    <div class="Picture">
-                        <img id="me" src="" alt="Picture">
-                    </div>
-                    <div class="Description">
-                        <p id="top">
-                            <b>Who am i?</b>
-                            <br>
-                       Hi, 
-                        </p>
-                </div>
-                    
-                </section>
-            </div>
-            <div class="Progress-bar" class="fader">
-                <h2>HTML5</h2>
-                <div id="myProgress" onscroll="html()">
-                    <div id="myBar">10%</div>
-                  </div>
-                
-                  <h2>CSS3</h2>
-                <div id="myProgress" onscroll="move()">
-                    <div id="Bar">
-                    <div id="label">10%</div>
-                    </div>
-                  </div> 
-                  
-                  <h2>JavaScript</h2>
-                
-                <div id="myProgress" onscroll="Java()">
-                  <div id="dour">
-                    <div id="label">1%</div>
-                  </div>
-                </div>
-                    </section></div>
-            </div>
-
-
-          </div>
-        </div>
-
-         
-
-   <div class="proj inline-photo start-on-scroll">
-      <h2 id="proj">Projects</h2>
-  <div class="Projects">
-    <div class="pro1" class="fader">
-        <img id="nice" src="niceBro.png" alt="project1">
-    </div>
-    <div class="pro2" class="fader">
-        <img id="nice" src="soon.png" alt="project2">
-    </div>
-    <div class="pro3" class="fader">
-        <img id="nice" src="soon.png" alt="project3">
-    </div>
-    <div class="pro4" class="fader">
-        <img id="nice" src="soon.png" alt="project4">
-    </div>
-  </div>
-      
-  </div>
-</div>
-
-<div class="mall">
-    <div id="mail">
-      <div class="mail-to">
-        <a href="mailto:soliz.adrian68@gmail.com">
-          <button id="Contact" >
-            <span > Contact Me</span>
-         </button>
-          </a>
+        <button id="king" class="btn btn-two" onclick="document.getElementById('About-me').scrollIntoView();">
+          <span> View my Profile</span>
+        </button>
       </div>
     </div>
   </div>
-  <footer>
-    <p id="maxs">
-     Adrian Soliz &#169 2020
-    </p>
+
+  <div id="navbar">
+    <a class="active" href="#center">Home</a>
+    <a href="#About-me">About</a>
+    <a href="#proj">project</a>
+    <a href="#Contact">Contact</a>
+  </div>
+
+  <div id="About-me" class="inline-photo start-on-scroll">
+    <div class="flex-container">
+      <div id="flex-item">
+        <h1 id="mes">ABOUT</h1>
+
+      </div>
+    </div>
+
+    <div class="flex-containers">
+      <div class="flex-items">
+        <img
+          style="width:30%; border-radius: 50%; display: block; margin-left: auto; margin-right: auto; margin-top: 10px;"
+          src="me_pic.png" alt="me">
+        <h2 style="text-align: center;">Who Am I ?</h2>
+        <p id="speech">
+          I am a Front-end-Developer in Phoenix, AZ.<br>
+          I have a passion for Web designing and creating <br>
+          intuitive, dynamic user experiences.
+
+        </p>
+      </div>
+
+      <div class="flex-items" class="">
+
+        <div class="Progress-bar " class="fader">
+
+          <h2>HTML5</h2>
+          <div id="myProgress" onscroll="html()">
+            <div id="myBar">10%</div>
+          </div>
+
+          <h2>CSS3</h2>
+          <div id="myProgress" onscroll="move()">
+            <div id="Bar">10%</div>
+          </div>
+
+          <h2>JavaScript</h2>
+          <div id="myProgress" onscroll="Java()">
+            <div id="dour">1%</div>
+          </div>
+
+          <h2>Node.js</h2>
+          <div id="myProgress" onscroll="mads()">
+            <div id="modes">45%</div>
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="proj inline-photo start-on-scroll"> 
+      <h2 id="proj">Projects</h2> 
+  <div class="Projects"> 
+    <div class="pro1" class="fader"> 
+      <a href="https://github.com/FluffyAdran15/NiceDudeCo">  <img id="nice" src="niceBro.png" alt="project1"> </a>
+    </div> 
+    <div class="pro2" class="fader"> 
+        <a href="https://github.com/FluffyAdran15/JavaScript_DOM_whack_a_mole"><img id="nice" src="Wack.png" alt="project2"> </a>
+    </div> 
+    <div class="pro3" class="fader"> 
+     <a href="" > <img id="nice" src="soon.png" alt="project3"> </a> 
+    </div> 
+    <div class="pro4" class="fader"> 
+       <a href="https://github.com/FluffyAdran15/Capstone"><img id="nice" src="Capstone.png" alt="project4"> </a> 
+    </div> 
+  </div> 
+       
+  </div> 
+</div> 
+
+  <div class="mall">
+    <div id="mail">
+      <div class="mail-to">
+        <a href="mailto:soliz.adrian68@gmail.com">
+          <button id="Contact">
+            <span> Contact Me</span>
+          </button>
+        </a>
+      </div>
+      <div>
+          <div class="resume">
+              <a href="Adrian Soliz Coding Resume.pdf">
+                <button id="rester">
+                  <span> My resume</span>
+                </button>
+              </a>
+      </div>
+    </div>
+  </div>
+  <footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="social-wrapper">
+      <ul>
+
+        <li>
+          <a href="#" target="_blank">
+            <img src="https://www.mchenryvillage.com/images/instagram-icon.png" alt="Instagram Logo"
+              class="instagram-icon"></a>
+        </li>
+        <li>
+          <a href="#" target="_blank">
+            <img src="link.png" alt="Linkedin Logo" class="linkedin-icon"></a>
+        </li>
+        <li>
+          <a href="#" target="_blank">
+            <img src="http://www.iconarchive.com/download/i54037/danleech/simple/facebook.ico" alt="Facebook Logo"
+              class="facebook-icon"></a>
+        </li>
+
+      </ul>
+    </div>
+
+    <nav class="footer-nav" role="navigation">
+      <p>Copyright &copy; 2021- Adrian Soliz. All rights reserved.</p>
+    </nav>
   </footer>
-    <script src="scrollFeat.js"></script>
-     <script src="Bar.js" async></script>
+
+
+  <script src="scrollFeat.js"></script>
+  <script src="Bar.js" async></script>
 </body>
 
 </html>
